@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #000;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    background: #ebebeb;
+    padding: 2rem;
+}
+
+button {
+    padding: 10px;
+    margin: 2rem;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    background: #ebebeb;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.roll-number {
+    color: #fff;
+    padding-bottom: 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+.rotate {
+    animation: rotate .3s ease;
+}
+
+@keyframes rotate {
+    100%{transform: rotate(180deg)}
+}
